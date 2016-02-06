@@ -1,8 +1,16 @@
 /bin/
+*.log
+
+# Eclipse
 /target/
 .classpath
 .project
 .settings
+
+# Gradle
+.gradle
+!gradle-wrapper.jar
+
+# OS
 Thumbs.db
 .DS_Store
-*.log
